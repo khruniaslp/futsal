@@ -1,0 +1,75 @@
+body{
+    background-color:beige;
+    font-size: 16px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    width: 80%;
+    margin: 10px auto;
+}
+
+/*header*/
+.content header{
+    background-image: url('halaman/mbul.jpg');
+    padding: 2opx 10px;
+    border-radius: 5px;
+    border: 1px solid #f1e9e9;
+    margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+    text-align: center;
+    color:black;
+}
+
+/*menu navigasi*/
+.menu{
+    background-color: #FAAB78 ;
+    border: 1px solid #e4dada;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+div.menu ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+
+div.menu ul li {
+    float: left;
+    text-transform: uppercase;
+}
+
+div.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a:hoverover {
+    cursor: pointer;
+    color:#fff;
+}
+
+
+div.badan{
+    background-color: #FFDCA9;
+    border-radius: 5px;
+    border: 1px solid #dad0d0;
+    margin-bottom: 10px;
+}
+
+div.halaman{
+    text-align: center;
+    padding: 30px 20px;
+}
